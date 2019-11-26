@@ -17,7 +17,7 @@ let package = Package(
         .target(name: "Bugsnag", 
                 dependencies: [], 
                 path: "Source",
-                publicHeadersPath: "Source",
+                publicHeadersPath: "",
                 cSettings: [
                   .headerSearchPath("KSCrash/Source/KSCrash/Reporting/Filters"),
                   .headerSearchPath("KSCrash/Source/KSCrash/Recording/Tools"),
